@@ -15,7 +15,8 @@ Visit https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/qu
 ./gemini.sh 'what is google gemini ai?'
 
 ./gemini.sh \
-'Extract and summarize skills from the below paragraph in table format. First column of the table is skill name while the second column is skill type (hard vs soft). Remove any verb and only keep noun. Do not miss any skills.
+'Extract and summarize skills from the below paragraph in table format. First column of the table is skill name while the second column is skill type (hard vs soft).
+Remove any verb and only keep noun. Do not miss any skills.
 
 Bachelor’s degree in Mathematics, Information Engineering, Statistics, Marketing or other relevant disciplines
 3+ years of relevant work experience in a similar function from a sizable company. Experience and interest in the travel and hospitality industry will be an advantage
