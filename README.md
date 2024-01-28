@@ -13,9 +13,18 @@ Visit https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/qu
 ### Text
 ```
 ./gemini.sh 'what is google gemini ai?'
-```
-Another example is to extract skills from job description scrapped from job boards.
 
+./gemini.sh \
+'Extract and summarize skills from the below paragraph in table format. First column of the table is skill name while the second column is skill type (hard vs soft). Remove any verb and only keep noun. Do not miss any skills.
+
+Bachelor’s degree in Mathematics, Information Engineering, Statistics, Marketing or other relevant disciplines
+3+ years of relevant work experience in a similar function from a sizable company. Experience and interest in the travel and hospitality industry will be an advantage
+Proficiency in scripting languages (SAS, SQL) is a must
+Proficiency in data visualization tools (especially Tableau) is a must
+Ability to write queries / programs and experience with R or Python will be an advantage
+Experience with statistics modelling, such as decision tree, regression, clustering etc. will also be an advantage
+A team player with strong time management skills and great attention to detail'
+```
 
 ### Image
 ```
