@@ -1,4 +1,4 @@
-# gemini_shell_script
+# Gemini Shell Script
 
 A simple shell script for using Google Gemini in your terminal
 
